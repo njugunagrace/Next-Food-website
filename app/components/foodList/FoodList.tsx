@@ -15,28 +15,29 @@ const FoodList = [
   },
   {
     img: "/chickenFry.png",
-    name: 'French Fries',
+    name: 'Chicken Fries',
     buy: 'Order Now',
   },
   {
     img: "/grill.png",
-    name: 'French Fries',
+    name: 'Grill sandwich',
     buy: 'Order Now',
   },
   {
     img: "/taco.png",
-    name: 'French Fries',
+    name: 'Taco Traifi',
     buy: 'Order Now',
   },
   {
-    img: "/strawberries.png",
-    name: 'French Fries',
+    img: "/noodles.png",
+    name: "Noodle's Ramen",
     buy: 'Order Now',
   },
 ];
+
 const Food = () => {
   return (
-    <div className="product container mx-auto">
+    <div className="product container mx-auto mb-20">
       <h1 className=''>Our <span className="text-red-500 ">Regular</span> Menu</h1>
       <p>These Are Our Regular Menus. You Can<br />Order Anything You Like</p>
       <div className="grid grid-cols-2 sm:grid-cols-3 ">
